@@ -1,0 +1,47 @@
+.chatbot-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.chatbot-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chatbot-header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%; /* Para tornar a imagem circular */
+}
+
+.chatbot-popup button {
+    display: block;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.chatbot-popup.centralizado {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    right: auto;
+}
+
+
+.chatbot-popup img {
+    max-width: 125px; /* Ajuste para o tamanho desejado */
+    max-height: 125px; /* Ajuste para o tamanho desejado */
+    margin-bottom: 10px;
+    align-items: top;
+}
